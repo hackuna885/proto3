@@ -1,0 +1,9 @@
+<files .htaccess>
+Order allow,deny
+Deny from all
+</files>
+
+<files *.db>
+order allow,deny
+deny from all
+</files>
