@@ -9,7 +9,7 @@ if (isset($_POST['txtPassword']) && !empty($_POST['txtPassword'])) {
 			
 			<html>
 				<head>
-					<meta http-equiv="REFRESH" content="0; url=protected/php/genEstadoCuenta.php">
+					<meta http-equiv="REFRESH" content="0; url=acceso/EstadoDeCuenta.php">
 				</head>
 			</html>
 

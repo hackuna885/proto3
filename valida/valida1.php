@@ -10,7 +10,10 @@ if (isset($_POST['txtCorreo']) && !empty($_POST['txtCorreo'])) {
 	$con = new SQLite3("../protected/data/usuarios.db") or die("Problemas para conectar");
 	$cs = $con -> query("SELECT * FROM login WHERE correo = '$_POST[txtCorreo]'");
 
+	$correo = "";
+
 	while ($resul = $cs -> fetchArray()) {
+
 		$nombre = $resul['nombre'];
 		$aPaterno = $resul['aPaterno'];
 		$aMaterno = $resul['aMaterno'];

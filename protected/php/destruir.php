@@ -7,7 +7,7 @@ session_start();
 session_destroy();
 
 echo "<script> alert('Sesión Terminada!'); </script>";
-echo "<script> window.location='../../index.php'; </script>";
+echo "<script> window.location='index.php'; </script>";
 
 
  ?>
